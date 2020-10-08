@@ -10,6 +10,8 @@ function App() {
 
         <div className="experience-container">
           <Experience data="hello" />
+          <Experience data="hello" />
+          <Experience data="hello" />
         </div>
       </div>
     </div>
