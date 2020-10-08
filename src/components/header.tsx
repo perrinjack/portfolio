@@ -1,7 +1,7 @@
 import React from 'react';
-
+import HeaderInfo from './headerInfo';
 const Header = () => {
-  return <h1>Hello, world!</h1>;
+  return <HeaderInfo itemText="Jack Perrin" />;
 };
 
 export default Header;
