@@ -1,6 +1,8 @@
 import React from 'react';
 import HeaderInfo from './headerInfo';
 import '../styles/header.scss';
+
+import profile from '../assets/me.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -13,11 +15,7 @@ const Header = () => {
   return (
     <div className="header">
       <div>
-        <img
-          className="profile-photo"
-          src={'https://homepages.cae.wisc.edu/~ece533/images/airplane.png'}
-          alt="Jack Perrin"
-        />
+        <img className="profile-photo" src={profile} alt="Jack Perrin" />
       </div>
       <div className="header-details">
         <HeaderInfo itemText="Jack Perrin">
