@@ -4,14 +4,14 @@ import '../styles/header.scss';
 type HeaderInfoProps = {
   itemText: string;
   link?: string;
-  children?: ReactNode;
+  children: ReactNode;
 };
 const HeaderInfo = ({ itemText, link, children }: HeaderInfoProps) => {
   return (
     <div>
       <div className="header-detail">
         <div className="icon-container">{children}</div>
-        {link ? <a href={link}> {itemText} </a> : <div>{itemText}</div>}
+        {link ? <a href={link} target="_blank" > {itemText}  </a> : <div>{itemText}</div>}
       </div>
     </div>
   );
