@@ -17,8 +17,14 @@ const HeaderInfo = ({ itemText, link, children }: HeaderInfoProps) => {
             {children}
           </a>
         </div>
-
-        <div>{itemText}</div>
+        {link ? (
+          <a href={link} target="_blank">
+            {' '}
+            {itemText}{' '}
+          </a>
+        ) : (
+          <div>{itemText}</div>
+        )}
       </div>
     </div>
   );
