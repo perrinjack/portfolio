@@ -1,6 +1,10 @@
 import React from 'react';
 import HeaderInfo from './headerInfo';
 import '../styles/header.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+library.add(faUser);
 const Header = () => {
   return (
     <div className="header">
@@ -12,7 +16,9 @@ const Header = () => {
         />
       </div>
       <div className="header-details">
-        <HeaderInfo itemText="Jack Perrin" />
+        <HeaderInfo itemText="Jack Perrin">
+          <FontAwesomeIcon icon="user" className="icon" />
+        </HeaderInfo>
         <HeaderInfo itemText="Full Stack Developer" />
         <HeaderInfo
           itemText="LinkedIn"

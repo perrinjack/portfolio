@@ -1,21 +1,16 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import '../styles/header.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-library.add(faUser);
+
 type HeaderInfoProps = {
   itemText: string;
   link?: string;
+  children?: ReactNode;
 };
-const HeaderInfo = ({ itemText, link }: HeaderInfoProps) => {
+const HeaderInfo = ({ itemText, link, children }: HeaderInfoProps) => {
   return (
     <div>
       <div className="header-detail">
-        {' '}
-        <div>
-          <FontAwesomeIcon icon="user" className="icon" />
-        </div>
+        <div className="icon-container">{children}</div>
         {link ? <a href={link}> {itemText} </a> : <div>{itemText}</div>}
       </div>
     </div>
