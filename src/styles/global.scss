@@ -1,0 +1,82 @@
+@import 'constants';
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px 30px;
+
+  @include tabletUp {
+    margin: 0 50px 50px;
+  }
+}
+
+.code-block {
+  background-color: #eff0f1;
+  margin: 30px 10px 0;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  line-height: 1.5;
+
+  &.dark-theme {
+    background-color: $codeBlack;
+    color: $codeBlue;
+  }
+
+  @include tabletUp {
+    margin: 30px 40px 0;
+  }
+}
+
+.tag-container {
+  @include mobileUp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  & .tag-wrapper {
+    flex-direction: column;
+
+    & > .tag + .tag {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.tag {
+  color: $codeYellow;
+}
+
+.indented-text {
+  padding-left: 30px;
+
+  & li {
+    list-style-type: none;
+
+    @include mobileUp {
+      list-style-type: initial;
+    }
+  }
+}
+
+.about-me {
+  margin: 20px 20px;
+  overflow: hidden;
+
+  @include tabletUp {
+    margin: 20px 90px;
+  }
+
+  & .expand-truncate-icon {
+    float: right;
+  }
+}
+
+.truncated {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
