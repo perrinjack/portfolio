@@ -2,9 +2,13 @@ import React from 'react';
 import HeaderInfo from './headerInfo';
 import '../styles/header.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-library.add(faUser);
+import {
+  faUserGraduate,
+  faLaptopCode,
+} from '@fortawesome/free-solid-svg-icons';
+library.add(faUserGraduate, faLaptopCode, fab);
 const Header = () => {
   return (
     <div className="header">
@@ -17,14 +21,20 @@ const Header = () => {
       </div>
       <div className="header-details">
         <HeaderInfo itemText="Jack Perrin">
-          <FontAwesomeIcon icon="user" className="icon" />
+          <FontAwesomeIcon icon="user-graduate" className="icon" />
         </HeaderInfo>
-        <HeaderInfo itemText="Full Stack Developer" />
+        <HeaderInfo itemText="Full Stack Developer">
+          <FontAwesomeIcon icon="laptop-code" className="icon" />
+        </HeaderInfo>
         <HeaderInfo
           itemText="LinkedIn"
           link="https://www.linkedin.com/in/perrinjack/"
-        />
-        <HeaderInfo itemText="Github" link="https://github.com/perrinjack" />
+        >
+          <FontAwesomeIcon icon={['fab', 'linkedin']} className="icon" />
+        </HeaderInfo>
+        <HeaderInfo itemText="Github" link="https://github.com/perrinjack">
+          <FontAwesomeIcon icon={['fab', 'github']} className="icon" />
+        </HeaderInfo>
       </div>
     </div>
   );
