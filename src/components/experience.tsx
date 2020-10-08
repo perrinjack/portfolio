@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../App.scss';
-
+import '../styles/experience.scss';
 type EmployerCardProps = {
   data: string;
 };

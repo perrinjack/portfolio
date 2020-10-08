@@ -7,9 +7,10 @@ function App() {
     <div>
       <div className="app-body">
         <Header />
-      </div>
-      <div className="experience-container">
-        <Experience data="hello" />
+
+        <div className="experience-container">
+          <Experience data="hello" />
+        </div>
       </div>
     </div>
   );
