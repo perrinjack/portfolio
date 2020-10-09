@@ -30,7 +30,12 @@ class App extends React.Component {
             <div className="experience-container">
               <Experience title="Makers Academy" summary="blah blah" />
               <Experience title="Bristol University" summary="blah blah" />
-              <Experience title="St Albans School" summary="blah blah" />
+              <Experience
+                title="St Albans School"
+                summary={
+                  "A Level - 3A's (Maths, Physics, Electronics)  \n\nAS Level - 1A (Geography)  \n\nGCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)"
+                }
+              />
             </div>
           </div>
           <BottomNavigation
