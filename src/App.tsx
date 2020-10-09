@@ -5,7 +5,9 @@ import Header from './components/header';
 import { BottomNavigation } from '@material-ui/core';
 import { BottomNavigationAction } from '@material-ui/core';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-
+import PhoneIcon from '@material-ui/icons/Phone';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
 class App extends React.Component {
   handlePhoneClick = () => (event: any) => {
     window.open('tel:+447590606244');
@@ -33,14 +35,28 @@ class App extends React.Component {
                     <Experience title="St Albans School" summary="blah blah" />
                   </div>
                 </div>
-                <BottomNavigation showLabels={true}>
+                <BottomNavigation
+                  showLabels={true}
+                  style={{
+                    width: '100%',
+                    position: 'fixed',
+                    bottom: 0,
+                  background: '#800000'}}
+                
+                >
                   <BottomNavigationAction
                     label="Call"
                     onClick={this.handlePhoneClick()}
+                    style={{color: 'white'}}
+                    icon={<PhoneIcon />}
                   />
 
-                  <BottomNavigationAction label="Mail" onClick={this.handleMailClick()}/>
-                  <BottomNavigationAction label="LinkedIn" />
+                  <BottomNavigationAction
+                    label="Mail"
+                    onClick={this.handleMailClick()}
+                    style={{color: 'white'}} icon={ < EmailIcon />}
+                  />
+                  <BottomNavigationAction label="LinkedIn" style={{color: 'white'}} icon={<LinkedInIcon />}/>
                 </BottomNavigation>
               </div>
             </Route>
