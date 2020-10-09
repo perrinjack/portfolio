@@ -9,8 +9,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faUserGraduate,
   faLaptopCode,
+  faMapMarkedAlt,
 } from '@fortawesome/free-solid-svg-icons';
-library.add(faUserGraduate, faLaptopCode, fab);
+library.add(faUserGraduate, faLaptopCode, fab, faMapMarkedAlt);
 const Header = () => {
   return (
     <div className="header">
@@ -19,19 +20,16 @@ const Header = () => {
       </div>
       <div className="header-details">
         <HeaderInfo itemText="Jack Perrin">
-          <FontAwesomeIcon icon="user-graduate" className="icon" />
+          <FontAwesomeIcon style = {{color: "#800000"}} icon="user-graduate" className="icon" />
         </HeaderInfo>
         <HeaderInfo itemText="Full Stack Developer">
-          <FontAwesomeIcon icon="laptop-code" className="icon" />
+          <FontAwesomeIcon style = {{color: "#800000"}}  icon="laptop-code" className="icon" />
         </HeaderInfo>
-        <HeaderInfo
-          itemText="LinkedIn"
-          link="https://www.linkedin.com/in/perrinjack/"
-        >
-          <FontAwesomeIcon icon={['fab', 'linkedin']} className="icon" />
+        <HeaderInfo itemText="London">
+          <FontAwesomeIcon style = {{color: "#800000"}}  icon="map-marked-alt" className="icon" />
         </HeaderInfo>
         <HeaderInfo itemText="Github" link="https://github.com/perrinjack">
-          <FontAwesomeIcon icon={['fab', 'github']} className="icon" />
+          <FontAwesomeIcon style = {{color: "#800000"}}  icon={['fab', 'github']} className="icon" />
         </HeaderInfo>
       </div>
     </div>
