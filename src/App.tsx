@@ -9,9 +9,9 @@ function App() {
         <Header />
 
         <div className="experience-container">
-          <Experience data="hello" />
-          <Experience data="hello" />
-          <Experience data="hello" />
+          <Experience title="Makers Academy" summary="blah blah" />
+          <Experience title="Bristol University" summary="blah blah" />
+          <Experience title="St Albans School" summary="blah blah" />
         </div>
       </div>
     </div>
