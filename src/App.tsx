@@ -26,7 +26,7 @@ class App extends React.Component {
         <div>
           <div className="app-body">
             <Header />
-            <AboutMe/>
+            <AboutMe />
             <div className="experience-container">
               <Experience title="Makers Academy" summary="blah blah" />
               <Experience title="Bristol University" summary="blah blah" />
