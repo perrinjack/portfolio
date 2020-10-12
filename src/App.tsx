@@ -37,6 +37,8 @@ class App extends React.Component {
                 }
               />
             </div>
+            <br></br>
+            <br></br>
           </div>
           <BottomNavigation
             showLabels={true}
