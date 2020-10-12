@@ -10,7 +10,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 class App extends React.Component {
   handlePhoneClick = () => (event: any) => {
-    window.open('tel:+447590606244');
+    window.location.href = 'tel:+447590606244';
   };
   handleMailClick = () => (event: any) => {
     window.open('mailto:perrinjack96@gmail.com');
