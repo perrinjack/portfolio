@@ -13,7 +13,7 @@ class App extends React.Component {
     window.location.href = 'tel:+447590606244';
   };
   handleMailClick = () => (event: any) => {
-    window.open('mailto:perrinjack96@gmail.com');
+    window.location.href = 'mailto:perrinjack96@gmail.com';
   };
 
   handleLinkedInClick = () => (event: any) => {
