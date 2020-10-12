@@ -4,7 +4,7 @@ import Experience from './components/experience';
 import Header from './components/header';
 import { BottomNavigation } from '@material-ui/core';
 import { BottomNavigationAction } from '@material-ui/core';
-
+import AboutMe from './components/aboutMe';
 import PhoneIcon from '@material-ui/icons/Phone';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
@@ -26,7 +26,7 @@ class App extends React.Component {
         <div>
           <div className="app-body">
             <Header />
-
+            <AboutMe/>
             <div className="experience-container">
               <Experience title="Makers Academy" summary="blah blah" />
               <Experience title="Bristol University" summary="blah blah" />
