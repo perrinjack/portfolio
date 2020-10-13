@@ -9,3 +9,6 @@ In the project directory, you can run:
 ## Possible Alterations. 
 
 In Mobile-M size (iphone size) developer fa-icon appears out of line. Possibly change icon. 
+
+
+Redirecting DNS - www.jack-perrin.uk to https://www.jack-perrin.uk
