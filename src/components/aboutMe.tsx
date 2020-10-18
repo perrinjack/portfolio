@@ -63,10 +63,10 @@ const AboutMe = () => {
         <div className="tag-wrapper">
           <div className="tag">{'<CodingPrinciples>'}</div>
           <div className="indented-text">
-            <li>block block</li>
-            <li>block block</li>
-            <li>block block</li>
-            <li>block block</li>
+            <li>Commit Often, Perfect Later</li>
+            <li>Robustness Through Tests</li>
+            <li>Code Reviews Help Everyone</li>
+            <li>Pairing Powers Productivity</li>
           </div>
           <div className="tag">{'</CodingPrinciples>'}</div>
         </div>
