@@ -28,10 +28,10 @@ class App extends React.Component {
             <Header />
             <AboutMe />
             <div className="experience-container">
-              <Experience title="Makers Academy" summary="blah blah" />
-              <Experience title="Bristol University" summary="blah blah" />
+              <Experience title="Makers Academy Apr - Jul 2020" summary="blah blah" />
+              <Experience title="Bristol University Sep 2015 - Jun 2019" summary="blah blah" />
               <Experience
-                title="St Albans School"
+                title="St Albans School Sep 2008 - Jul 2015"
                 summary={
                   "A Level - 3A's (Maths, Physics, Electronics)  \n\nAS Level - 1A (Geography)  \n\nGCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)"
                 }
