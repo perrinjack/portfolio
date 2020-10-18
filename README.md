@@ -12,3 +12,7 @@ In Mobile-M size (iphone size) developer fa-icon appears out of line. Possibly c
 
 
 Redirecting DNS - www.jack-perrin.uk to https://www.jack-perrin.uk
+
+[Visit HERE](https://www.jack-perrin.uk/)
+
+   
