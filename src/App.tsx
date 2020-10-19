@@ -8,6 +8,7 @@ import AboutMe from './components/aboutMe';
 import PhoneIcon from '@material-ui/icons/Phone';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
+import experience from './content/info.json';
 class App extends React.Component {
   handlePhoneClick = () => (event: any) => {
     window.location.href = 'tel:+447590606244';
@@ -32,6 +33,14 @@ class App extends React.Component {
               }
             />
             <div className="experience-container">
+              {experience.map((d) => (
+                <Experience
+                  title={d.title}
+                  summary={d.summary}
+                  sectionTitle={'Education'}
+                />
+              ))}
+
               <Experience
                 title="Makers Academy || Apr - Jul 2020"
                 summary={

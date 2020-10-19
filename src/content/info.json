@@ -1,0 +1,34 @@
+[
+  {
+    "subheading": "Education",
+    "title": "Makers Academy",
+    "from": "Jun 2018",
+    "to": "present",
+    "location": "London, UK",
+    "summary": "A 16-week intensive programming bootcamp, focusing on : \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
+    "projects": [
+      {
+        "name": "Small Steps",
+        "role": "Full-Stack Developer",
+        "from": "2020",
+        "to": ""
+      }
+    ]
+  },
+
+  {
+    "title": "Makers Academy",
+    "from": "Jun 2018",
+    "to": "present",
+    "location": "London, UK",
+    "summary": "A 16-week intensive programming bootcamp, focusing on : \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
+    "projects": [
+      {
+        "name": "Small Steps",
+        "role": "Full-Stack Developer",
+        "from": "2020",
+        "to": ""
+      }
+    ]
+  }
+]

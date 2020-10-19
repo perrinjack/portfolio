@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import '../App.scss';
 import Project from './project';
 import '../styles/experience.scss';
+
 type EmployerCardProps = {
   data?: string;
   title: string;
