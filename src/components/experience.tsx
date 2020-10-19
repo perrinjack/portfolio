@@ -24,8 +24,21 @@ const Experience = ({
         <ReactMarkdown className="code-block" source={summary} />
         <div className="project-container">
           {' '}
-          <Project title="project1" /> <Project title="project2" />{' '}
-          <Project title="project3" />
+          <Project
+            title="project1"
+            role="full stack"
+            date={{ from: 'September' , to: 'september'}}
+          />{' '}
+          <Project
+            title="project2"
+            role="full stack"
+            date={{ from: 'September', to: 'December' }}
+          />{' '}
+          <Project
+            title="project3"
+            role="full stack"
+            date={{ from: 'September', to: 'January' }}
+          />
         </div>
       </div>
     );

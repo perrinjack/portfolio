@@ -3,16 +3,18 @@ import '../styles/header.scss';
 import '../styles/project.scss';
 type ProjectProps = {
   title: string;
+  role: string;
+  date: any;
 };
-const Project = ({ title }: ProjectProps) => {
+const Project = ({ title, role, date }: ProjectProps) => {
   return (
     <div className="project">
       <div className="project-details">
         <div className="core-information">
           <div>{title}</div>
-          <div>{'Front end'}</div>
+          <div>{role}</div>
           <div>
-            {'september'} - {'october'}
+            {date.from} - {date.to}
           </div>
         </div>
       </div>
