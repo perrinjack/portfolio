@@ -16,6 +16,10 @@ const Experience = ({
   summary,
   sectionTitle,
 }: EmployerCardProps) => {
+  const handleProjectClick = (index: number) => {
+    alert('Project Clicked');
+  };
+
   if (sectionTitle) {
     return (
       <div className="experience">
@@ -27,17 +31,23 @@ const Experience = ({
           <Project
             title="project1"
             role="full stack"
-            date={{ from: 'September' , to: 'september'}}
+            date={{ from: 'September', to: 'september' }}
+            onClick={handleProjectClick}
+            id={1}
           />{' '}
           <Project
             title="project2"
             role="full stack"
             date={{ from: 'September', to: 'December' }}
+            onClick={handleProjectClick}
+            id={2}
           />{' '}
           <Project
             title="project3"
             role="full stack"
             date={{ from: 'September', to: 'January' }}
+            onClick={handleProjectClick}
+            id={3}
           />
         </div>
       </div>

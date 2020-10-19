@@ -1,14 +1,16 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import '../styles/header.scss';
 import '../styles/project.scss';
 type ProjectProps = {
   title: string;
   role: string;
   date: { from: string; to: string };
+  id: number;
+  onClick: (id: number) => void;
 };
-const Project = ({ title, role, date }: ProjectProps) => {
+const Project = ({ title, role, date, onClick, id }: ProjectProps) => {
   return (
-    <div className="project">
+    <div className="project" onClick={() => onClick(id)}>
       <div className="project-details">
         <div className="core-information">
           <div>{title}</div>
