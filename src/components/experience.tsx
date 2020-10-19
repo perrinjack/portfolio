@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import '../App.scss';
 import Project from './project';
+import ProjectExpand from './projectExpand';
 import '../styles/experience.scss';
 
 type EmployerCardProps = {
@@ -40,7 +41,7 @@ const Experience = ({
     <div className="experience">
       <div className="experience-title">{subtitle}</div>
       <div className="experience-title">
-        {title}||{from} - {to}{' '}
+        {title}||{from} - {to}{' '} {expandedProjects}
       </div>
       <ReactMarkdown className="code-block" source={summary} />
       <div className="project-container">
