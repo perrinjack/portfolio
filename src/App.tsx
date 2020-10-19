@@ -26,7 +26,11 @@ class App extends React.Component {
         <div>
           <div className="app-body">
             <Header />
-            <AboutMe />
+            <AboutMe
+              summary={
+                'I am an energetic and ambitious Full Stack Junior Developer, looking for a role where I can consolidate and extend my programming knowledge, while also gaining exposure to product management and business strategy. After graduating from the University of Bristol with a Masters degree in Electrical and Electronic Engineering (First Class Honours), I spent 6 months travelling independently around South East Asia, Australia and New Zealand.'
+              }
+            />
             <div className="experience-container">
               <Experience
                 title="Makers Academy || Apr - Jul 2020"
