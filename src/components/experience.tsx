@@ -10,6 +10,7 @@ type EmployerCardProps = {
   summary: string;
   subtitle?: string;
   subtitleReq?: boolean;
+  projects: { name: string; role: string; from: string; to: string }[];
 };
 
 const Experience = ({
@@ -18,6 +19,7 @@ const Experience = ({
   summary,
   subtitle,
   subtitleReq,
+  projects,
 }: EmployerCardProps) => {
   const handleProjectClick = (index: number) => {
     alert('Project Clicked');
@@ -30,34 +32,16 @@ const Experience = ({
       <ReactMarkdown className="code-block" source={summary} />
       <div className="project-container">
         {' '}
-        <Project
-          title="Makers Bnb"
-          role="Full Stack"
-          date={{ from: 'September', to: 'september' }}
-          onClick={handleProjectClick}
-          id={1}
-        />{' '}
-        <Project
-          title="quikNews"
-          role="Full Stack"
-          date={{ from: 'September', to: 'December' }}
-          onClick={handleProjectClick}
-          id={2}
-        />{' '}
-        <Project
-          title="Small Steps"
-          role="Full Stack"
-          date={{ from: 'September', to: 'January' }}
-          onClick={handleProjectClick}
-          id={3}
-        />
-        <Project
-          title="Groundz Worldwide (Under Construction)"
-          role="Full Stack "
-          date={{ from: 'September', to: 'January' }}
-          onClick={handleProjectClick}
-          id={5}
-        />
+        {projects.map((d) => (
+          <Project
+            title={d.name}
+            role={d.role}
+            from={d.from}
+            to={d.to}
+            id={1}
+            onClick={handleProjectClick}
+          />
+        ))}
       </div>
     </div>
   );

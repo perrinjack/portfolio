@@ -4,11 +4,12 @@ import '../styles/project.scss';
 type ProjectProps = {
   title: string;
   role: string;
-  date: { from: string; to: string };
+  from: string;
+  to: string;
   id: number;
   onClick: (id: number) => void;
 };
-const Project = ({ title, role, date, onClick, id }: ProjectProps) => {
+const Project = ({ title, role, from, to, onClick, id }: ProjectProps) => {
   return (
     <div className="project" onClick={() => onClick(id)}>
       <div className="project-details">
@@ -16,7 +17,7 @@ const Project = ({ title, role, date, onClick, id }: ProjectProps) => {
           <div>{title}</div>
           <div>{role}</div>
           <div>
-            {date.from} - {date.to}
+            {from} - {to}
           </div>
         </div>
       </div>
