@@ -33,6 +33,7 @@ class App extends React.Component {
                 summary={
                   'A 16-week intensive programming bootcamp, focusing on : \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.'
                 }
+                sectionTitle={'Education'}
               />
               <Experience
                 title="Bristol University || Sep 2015 - Jun 2019"
@@ -43,7 +44,7 @@ class App extends React.Component {
               <Experience
                 title="St Albans School || Sep 2008 - Jul 2015"
                 summary={
-                  "A Level - 3A's (Maths, Physics, Electronics)  \n\nAS Level - 1A (Geography)  \n\nGCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)"
+                  "* A Level - 3A's (Maths, Physics, Electronics)  \n\n* AS Level - 1A (Geography)  \n\n* GCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)"
                 }
               />
             </div>
