@@ -8,7 +8,7 @@ import AboutMe from './components/aboutMe';
 import PhoneIcon from '@material-ui/icons/Phone';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
-import education from './content/info.json';
+import education from './content/education.json';
 class App extends React.Component {
   handlePhoneClick = () => (event: any) => {
     window.location.href = 'tel:+447590606244';
@@ -34,7 +34,12 @@ class App extends React.Component {
             />
             <div className="experience-container">
               {education.map((item) => (
-                <Experience title={item.title} summary={item.summary} />
+                <Experience
+                  title={item.title}
+                  summary={item.summary}
+                  subtitleReq={item.subtitleReq}
+                  subtitle={item.subtitle}
+                />
               ))}
             </div>
             <br></br>

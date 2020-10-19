@@ -8,16 +8,24 @@ type EmployerCardProps = {
   data?: string;
   title: string;
   summary: string;
+  subtitle?: string;
+  subtitleReq?: boolean;
 };
 
-const Experience = ({ data, title, summary }: EmployerCardProps) => {
+const Experience = ({
+  data,
+  title,
+  summary,
+  subtitle,
+  subtitleReq,
+}: EmployerCardProps) => {
   const handleProjectClick = (index: number) => {
     alert('Project Clicked');
   };
 
   return (
     <div className="experience">
-      <div className="experience-title">Education</div>
+      <div className="experience-title">{subtitle}</div>
       <div className="experience-title">{title}</div>
       <ReactMarkdown className="code-block" source={summary} />
       <div className="project-container">

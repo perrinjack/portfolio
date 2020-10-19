@@ -1,5 +1,7 @@
 [
   {
+    "subtitleReq": true,
+    "subtitle": "Education",
     "title": "Makers Academy",
     "from": "Jun 2018",
     "to": "present",
@@ -16,6 +18,7 @@
   },
 
   {
+    "subtitleReq": false,
     "title": "Makers Academy",
     "from": "Jun 2018",
     "to": "present",
