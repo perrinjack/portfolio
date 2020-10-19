@@ -9,6 +9,8 @@ type EmployerCardProps = {
   title: string;
   summary: string;
   subtitle?: string;
+  from: string;
+  to: string;
   projects: { name: string; role: string; from: string; to: string }[];
 };
 
@@ -17,6 +19,8 @@ const Experience = ({
   title,
   summary,
   subtitle,
+  from,
+  to,
   projects,
 }: EmployerCardProps) => {
   const handleProjectClick = (index: number) => {
@@ -26,7 +30,9 @@ const Experience = ({
   return (
     <div className="experience">
       <div className="experience-title">{subtitle}</div>
-      <div className="experience-title">{title}</div>
+      <div className="experience-title">
+        {title}||{from} - {to}{' '}
+      </div>
       <ReactMarkdown className="code-block" source={summary} />
       <div className="project-container">
         {' '}

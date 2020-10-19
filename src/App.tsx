@@ -38,6 +38,8 @@ class App extends React.Component {
                   title={item.title}
                   summary={item.summary}
                   subtitle={item.subtitle}
+                  from={item.from}
+                  to={item.to}
                   projects={item.projects}
                 />
               ))}

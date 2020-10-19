@@ -1,7 +1,7 @@
 [
   {
     "subtitle": "Education",
-    "title": "Makers Academy",
+    "title": "Makers Academy ",
     "from": "Jun 2018",
     "to": "present",
     "location": "London, UK",
@@ -29,31 +29,37 @@
   },
 
   {
-    "title": "University of Bristol",
+    "title": "University of Bristol ",
     "from": "Jun 2018",
     "to": "present",
     "location": "London, UK",
-    "summary": "A 16-week intensive programming bootcamp, focusing on : \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
+    "summary": "* MEng Electrical and Electronic Engineering. \n\n* First Class Honours.\n\n * Specialised in Communications Engineering.\n\n* Represented the University of Bristol at Rugby between 2015-2019.",
     "projects": [
       {
-        "name": "Small Steps",
+        "name": "R Cube",
         "role": "Full-Stack Developer",
+        "from": "2020",
+        "to": ""
+      },
+      {
+        "name": "Diss",
+        "role": "Researcher",
         "from": "2020",
         "to": ""
       }
     ]
   },
   {
-    "title": "St Albans School",
+    "title": "St Albans School ",
     "from": "Jun 2018",
     "to": "present",
     "location": "St Albans, UK",
-    "summary": "",
+    "summary": "* A Level - 3A's (Maths, Physics, Electronics)  \n\n* AS Level - 1A (Geography)  \n\n* GCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)",
     "projects": []
   },
   {
     "subtitle": "Work Experience & Jobs",
-    "title": "blog",
+    "title": "Cricket Direct",
     "from": "Jun 2018",
     "to": "present",
     "location": "London, UK",
