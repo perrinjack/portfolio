@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import '../App.scss';
 import Project from './project';
@@ -11,7 +11,13 @@ type EmployerCardProps = {
   subtitle?: string;
   from: string;
   to: string;
-  projects: { name: string; role: string; from: string; to: string }[];
+  projects: {
+    name: string;
+    role: string;
+    from: string;
+    to: string;
+    id: number;
+  }[];
 };
 
 const Experience = ({
@@ -23,8 +29,11 @@ const Experience = ({
   to,
   projects,
 }: EmployerCardProps) => {
+  const [expandedProjects, setExpandedProjects] = useState([-1]);
+
   const handleProjectClick = (index: number) => {
-    alert('Project Clicked');
+    setExpandedProjects([index]);
+    alert(index);
   };
 
   return (
@@ -42,7 +51,7 @@ const Experience = ({
             role={d.role}
             from={d.from}
             to={d.to}
-            id={1}
+            id={d.id}
             onClick={handleProjectClick}
           />
         ))}

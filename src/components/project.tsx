@@ -7,6 +7,7 @@ type ProjectProps = {
   from: string;
   to: string;
   id: number;
+
   onClick: (id: number) => void;
 };
 const Project = ({ title, role, from, to, onClick, id }: ProjectProps) => {

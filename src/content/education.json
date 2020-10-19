@@ -8,18 +8,21 @@
     "summary": "A 16-week intensive programming bootcamp, focusing on : \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
     "projects": [
       {
+        "id": 1,
         "name": "Small Steps",
         "role": "Full-Stack Developer",
         "from": "2020",
         "to": ""
       },
       {
+        "id": 2,
         "name": "quiknews",
         "role": "Full-Stack Developer",
         "from": "2020",
         "to": ""
       },
       {
+        "id": 3,
         "name": "quiknews",
         "role": "Full-Stack Developer",
         "from": "2020",
@@ -36,12 +39,14 @@
     "summary": "* MEng Electrical and Electronic Engineering. \n\n* First Class Honours.\n\n * Specialised in Communications Engineering.\n\n* Represented the University of Bristol at Rugby between 2015-2019.",
     "projects": [
       {
+        "id": 4,
         "name": "R Cube",
         "role": "Full-Stack Developer",
         "from": "2020",
         "to": ""
       },
       {
+        "id": 5,
         "name": "Diss",
         "role": "Researcher",
         "from": "2020",
