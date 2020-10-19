@@ -24,7 +24,8 @@ const Experience = ({
         <ReactMarkdown className="code-block" source={summary} />
         <div className="project-container">
           {' '}
-          <Project title="project1" />{' '}
+          <Project title="project1" /> <Project title="project2" />{' '}
+          <Project title="project3" />
         </div>
       </div>
     );
