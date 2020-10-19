@@ -29,25 +29,32 @@ const Experience = ({
         <div className="project-container">
           {' '}
           <Project
-            title="project1"
-            role="full stack"
+            title="Makers Bnb"
+            role="Full Stack"
             date={{ from: 'September', to: 'september' }}
             onClick={handleProjectClick}
             id={1}
           />{' '}
           <Project
-            title="project2"
-            role="full stack"
+            title="quikNews"
+            role="Full Stack"
             date={{ from: 'September', to: 'December' }}
             onClick={handleProjectClick}
             id={2}
           />{' '}
           <Project
-            title="project3"
-            role="full stack"
+            title="Small Steps"
+            role="Full Stack"
             date={{ from: 'September', to: 'January' }}
             onClick={handleProjectClick}
             id={3}
+          />
+          <Project
+            title="Groundz Worldwide (Under Construction)"
+            role="Full Stack "
+            date={{ from: 'September', to: 'January' }}
+            onClick={handleProjectClick}
+            id={5}
           />
         </div>
       </div>
@@ -57,6 +64,15 @@ const Experience = ({
     <div className="experience">
       <div className="experience-title">{title}</div>
       <ReactMarkdown className="code-block" source={summary} />
+      <div className="project-container">
+        <Project
+          title="project4"
+          role="full stack"
+          date={{ from: 'September', to: 'January' }}
+          onClick={handleProjectClick}
+          id={4}
+        />
+      </div>
     </div>
   );
 };
