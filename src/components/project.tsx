@@ -4,7 +4,7 @@ import '../styles/project.scss';
 type ProjectProps = {
   title: string;
   role: string;
-  date: any;
+  date: { from: string; to: string };
 };
 const Project = ({ title, role, date }: ProjectProps) => {
   return (
