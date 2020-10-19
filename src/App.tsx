@@ -37,7 +37,6 @@ class App extends React.Component {
                 <Experience
                   title={item.title}
                   summary={item.summary}
-                  subtitleReq={item.subtitleReq}
                   subtitle={item.subtitle}
                   projects={item.projects}
                 />

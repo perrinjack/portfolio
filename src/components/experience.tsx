@@ -9,7 +9,6 @@ type EmployerCardProps = {
   title: string;
   summary: string;
   subtitle?: string;
-  subtitleReq?: boolean;
   projects: { name: string; role: string; from: string; to: string }[];
 };
 
@@ -18,7 +17,6 @@ const Experience = ({
   title,
   summary,
   subtitle,
-  subtitleReq,
   projects,
 }: EmployerCardProps) => {
   const handleProjectClick = (index: number) => {

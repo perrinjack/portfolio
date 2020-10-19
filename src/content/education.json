@@ -1,6 +1,5 @@
 [
   {
-    "subtitleReq": true,
     "subtitle": "Education",
     "title": "Makers Academy",
     "from": "Jun 2018",
@@ -19,12 +18,17 @@
         "role": "Full-Stack Developer",
         "from": "2020",
         "to": ""
+      },
+      {
+        "name": "quiknews",
+        "role": "Full-Stack Developer",
+        "from": "2020",
+        "to": ""
       }
     ]
   },
 
   {
-    "subtitleReq": false,
     "title": "Makers Academy",
     "from": "Jun 2018",
     "to": "present",
