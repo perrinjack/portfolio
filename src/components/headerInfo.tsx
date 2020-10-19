@@ -12,13 +12,13 @@ const HeaderInfo = ({ itemText, link, children }: HeaderInfoProps) => {
       <div className="header-detail">
         <div className="icon-container">
           {' '}
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             {' '}
             {children}
           </a>
         </div>
         {link ? (
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             {' '}
             {itemText}{' '}
           </a>

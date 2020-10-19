@@ -8,6 +8,7 @@ import AboutMe from './components/aboutMe';
 import PhoneIcon from '@material-ui/icons/Phone';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
+import education from './content/education.json';
 class App extends React.Component {
   handlePhoneClick = () => (event: any) => {
     window.location.href = 'tel:+447590606244';
@@ -26,16 +27,22 @@ class App extends React.Component {
         <div>
           <div className="app-body">
             <Header />
-            <AboutMe />
+            <AboutMe
+              summary={
+                'I am an energetic and ambitious Full Stack Junior Developer, looking for a role where I can consolidate and extend my programming knowledge, while also gaining exposure to product management and business strategy. After graduating from the University of Bristol with a Masters degree in Electrical and Electronic Engineering (First Class Honours), I spent 6 months travelling independently around South East Asia, Australia and New Zealand.'
+              }
+            />
             <div className="experience-container">
-              <Experience title="Makers Academy Apr - Jul 2020" summary="blah blah" />
-              <Experience title="Bristol University Sep 2015 - Jun 2019" summary="blah blah" />
-              <Experience
-                title="St Albans School Sep 2008 - Jul 2015"
-                summary={
-                  "A Level - 3A's (Maths, Physics, Electronics)  \n\nAS Level - 1A (Geography)  \n\nGCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)"
-                }
-              />
+              {education.map((item) => (
+                <Experience
+                  title={item.title}
+                  summary={item.summary}
+                  subtitle={item.subtitle}
+                  from={item.from}
+                  to={item.to}
+                  projects={item.projects}
+                />
+              ))}
             </div>
             <br></br>
             <br></br>

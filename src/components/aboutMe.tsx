@@ -3,7 +3,10 @@ import ExposureIcon from '@material-ui/icons/Exposure';
 
 import '../App.scss';
 
-const AboutMe = () => {
+type AboutMeProps = {
+  summary: string;
+};
+const AboutMe = ({ summary }: AboutMeProps) => {
   const [isTruncated, setIsTruncated] = useState(false);
 
   const truncateContents = (element: Element) => {
@@ -32,12 +35,7 @@ const AboutMe = () => {
           <ExposureIcon />
         </span>
       </div>
-      <div className="indented-text">
-        block block block block block block block block block block block block
-        block block block block block block block block block block block block
-        block block block block block blockblock block block block block block
-        block block
-      </div>
+      <div className="indented-text">{summary}</div>
       <div className="tag">{'</AboutMe>'}</div>
       <div className="tag-container">
         <div className="tag-wrapper">
