@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import '../App.scss';
+import Project from './project';
 import '../styles/experience.scss';
 type EmployerCardProps = {
   data?: string;
@@ -21,6 +22,10 @@ const Experience = ({
         <div className="experience-title">{sectionTitle}</div>
         <div className="experience-title">{title}</div>
         <ReactMarkdown className="code-block" source={summary} />
+        <div className="project-container">
+          {' '}
+          <Project title="project1" />{' '}
+        </div>
       </div>
     );
   }
