@@ -29,7 +29,7 @@
   },
 
   {
-    "title": "Makers Academy",
+    "title": "University of Bristol",
     "from": "Jun 2018",
     "to": "present",
     "location": "London, UK",
@@ -42,5 +42,22 @@
         "to": ""
       }
     ]
+  },
+  {
+    "title": "St Albans School",
+    "from": "Jun 2018",
+    "to": "present",
+    "location": "St Albans, UK",
+    "summary": "",
+    "projects": []
+  },
+  {
+    "subtitle": "Work Experience & Jobs",
+    "title": "blog",
+    "from": "Jun 2018",
+    "to": "present",
+    "location": "London, UK",
+    "summary": "",
+    "projects": []
   }
 ]
