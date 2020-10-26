@@ -34,6 +34,9 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
           <div className="tag">{'<TechStack>'}</div>
           <div className="tech-stack-list">tech stack list here</div>
           <div className="tag">{'</TechStack>'}</div>
+          <div className="tag">{'<Link>'}</div>
+          <div className="tech-stack-list">Link</div>
+          <div className="tag">{'</Link>'}</div>
           <ReactMarkdown className="description indented-text"></ReactMarkdown>
         </div>
       </div>

@@ -5,7 +5,7 @@
     "from": "Jun 2018",
     "to": "present",
     "location": "London, UK",
-    "summary": "A 16-week intensive programming bootcamp, focusing on : \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
+    "summary": "A 16-week intensive programming bootcamp, focusing on: \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
     "projects": [
       {
         "id": 1,
@@ -47,9 +47,9 @@
       },
       {
         "id": 5,
-        "name": "Diss",
+        "name": "Performance Evaluation of ",
         "role": "Researcher",
-        "from": "2020",
+        "from": "Sep 2018 - April 2019",
         "to": ""
       }
     ]
@@ -67,7 +67,16 @@
     "title": "Cricket Direct",
     "from": "Jun 2018",
     "to": "present",
-    "location": "London, UK",
+    "location": "St Albans, UK",
+    "summary": "",
+    "projects": []
+  },
+
+  {
+    "title": "Barclaycard (Internship) ",
+    "from": "Jun 2018",
+    "to": "Aug 2018",
+    "location": "Northampton, UK",
     "summary": "",
     "projects": []
   }

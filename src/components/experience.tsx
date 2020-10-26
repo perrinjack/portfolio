@@ -43,7 +43,7 @@ const Experience = ({
     <div className="experience">
       <div className="experience-title">{subtitle}</div>
       <div className="experience-title">
-        {title}||{from} - {to} {expandedProjects}
+        {title}||{from} - {to}
       </div>
       <ReactMarkdown className="code-block" source={summary} />
       <div className="project-container">
