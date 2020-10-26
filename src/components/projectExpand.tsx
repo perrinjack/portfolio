@@ -24,10 +24,17 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
           <div className="project-popup-close" onClick={closePopup}>
             <CloseIcon />
           </div>
-
-          <ReactMarkdown className="description indented-text">
-            hello world
-          </ReactMarkdown>
+          <div className="indented-text">
+            <div>{project[0].name}</div>
+            <div>{project[0].role}</div>
+            <div>
+              {project[0].from} - {project[0].to}
+            </div>
+          </div>
+          <div className="tag">{'<TechStack>'}</div>
+          <div className="tech-stack-list">tech stack list here</div>
+          <div className="tag">{'</TechStack>'}</div>
+          <ReactMarkdown className="description indented-text"></ReactMarkdown>
         </div>
       </div>
     </>
