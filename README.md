@@ -19,3 +19,13 @@ project={[
 { name: 'Jack', role: 'ffdd', from: 'twats', to: 'mars', id: 7 },
 ]}
 />
+
+
+projects.map((d) => (
+          <Project
+            title={d.name}
+            role={d.role}
+            from={d.from}
+            to={d.to}
+            id={d.id}
+            onClick={handleProjectClick}

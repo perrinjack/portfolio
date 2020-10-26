@@ -4,6 +4,7 @@ import '../App.scss';
 import Project from './project';
 import ProjectExpand from './projectExpand';
 import '../styles/experience.scss';
+import { CSSTransition } from 'react-transition-group';
 
 type EmployerCardProps = {
   data?: string;
@@ -34,27 +35,43 @@ const Experience = ({
 
   const handleProjectClick = (index: number) => {
     setExpandedProjects([index]);
-    alert(index);
   };
 
   return (
     <div className="experience">
       <div className="experience-title">{subtitle}</div>
       <div className="experience-title">
-        {title}||{from} - {to}{' '} {expandedProjects}
+        {title}||{from} - {to} {expandedProjects}
       </div>
       <ReactMarkdown className="code-block" source={summary} />
       <div className="project-container">
         {' '}
         {projects.map((d) => (
-          <Project
-            title={d.name}
-            role={d.role}
-            from={d.from}
-            to={d.to}
-            id={d.id}
-            onClick={handleProjectClick}
-          />
+          <>
+            <Project
+              title={d.name}
+              role={d.role}
+              from={d.from}
+              to={d.to}
+              id={d.id}
+              onClick={handleProjectClick}
+            />
+            <>
+              {expandedProjects.includes(d.id) && (
+                <ProjectExpand
+                  project={[
+                    {
+                      name: d.name,
+                      role: d.role,
+                      from: d.from,
+                      to: d.to,
+                      id: d.id,
+                    },
+                  ]}
+                />
+              )}
+            </>
+          </>
         ))}
       </div>
     </div>
