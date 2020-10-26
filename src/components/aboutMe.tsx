@@ -39,22 +39,22 @@ const AboutMe = ({ summary }: AboutMeProps) => {
       <div className="tag">{'</AboutMe>'}</div>
       <div className="tag-container">
         <div className="tag-wrapper">
-          <div className="tag">{'<CoreValues>'}</div>
+          <div className="tag">{'<Core Skills>'}</div>
           <div className="indented-text">
-            <li>block block</li>
-            <li>block block</li>
-            <li>block block</li>
-            <li>block block</li>
+            <li>Quick Learner</li>
+            <li>Time Management</li>
+            <li>Problem Solver</li>
+            <li>Courage to Experiment</li>
           </div>
-          <div className="tag">{'</CoreValues>'}</div>
+          <div className="tag">{'</Core Skills>'}</div>
         </div>
         <div className="tag-wrapper">
           <div className="tag">{'<PersonalityTraits>'}</div>
           <div className="indented-text">
-            <li>block block</li>
-            <li>block block</li>
-            <li>block block</li>
-            <li>block block</li>
+            <li>Focused & Determined</li>
+            <li>Flexible & Adaptable</li>
+            <li>Ambitious</li>
+            <li>Truthful</li>
           </div>
           <div className="tag">{'</PersonalityTraits>'}</div>
         </div>

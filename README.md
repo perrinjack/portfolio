@@ -6,13 +6,26 @@ In the project directory, you can run:
 
 ### `npm start`
 
-## Possible Alterations. 
+## Possible Alterations.
 
-In Mobile-M size (iphone size) developer fa-icon appears out of line. Possibly change icon. 
-
+In Mobile-M size (iphone size) developer fa-icon appears out of line. Possibly change icon.
 
 Redirecting DNS - www.jack-perrin.uk to https://www.jack-perrin.uk
 
 [Visit HERE](https://www.jack-perrin.uk/)
 
-   
+<ProjectExpand
+project={[
+{ name: 'Jack', role: 'ffdd', from: 'twats', to: 'mars', id: 7 },
+]}
+/>
+
+
+projects.map((d) => (
+          <Project
+            title={d.name}
+            role={d.role}
+            from={d.from}
+            to={d.to}
+            id={d.id}
+            onClick={handleProjectClick}

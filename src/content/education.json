@@ -2,68 +2,97 @@
   {
     "subtitle": "Education",
     "title": "Makers Academy ",
-    "from": "Jun 2018",
+    "from": " Jun 2018",
     "to": "present",
     "location": "London, UK",
-    "summary": "A 16-week intensive programming bootcamp, focusing on : \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
+    "summary": "A 16-week intensive programming bootcamp, focusing on: \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
     "projects": [
       {
+        "id": 1,
         "name": "Small Steps",
         "role": "Full-Stack Developer",
-        "from": "2020",
-        "to": ""
+        "from": "Jul 2020",
+        "to": "Jul 2020"
       },
       {
+        "id": 2,
         "name": "quiknews",
         "role": "Full-Stack Developer",
-        "from": "2020",
-        "to": ""
+        "from": "Jun 2020",
+        "to": "Jul 2020"
       },
       {
-        "name": "quiknews",
+        "id": 3,
+        "name": "MakersBnb",
         "role": "Full-Stack Developer",
-        "from": "2020",
-        "to": ""
+        "from": "May 2020",
+        "to": "Jul 2020"
+      },
+      {
+        "id": 4,
+        "name": "Banking Tech Test",
+        "role": "Full-Stack Developer",
+        "from": "Jul 2020",
+        "to": "Jul 2020"
       }
     ]
   },
 
   {
     "title": "University of Bristol ",
-    "from": "Jun 2018",
-    "to": "present",
+    "from": " Sep 2015",
+    "to": "Jul 2019",
     "location": "London, UK",
     "summary": "* MEng Electrical and Electronic Engineering. \n\n* First Class Honours.\n\n * Specialised in Communications Engineering.\n\n* Represented the University of Bristol at Rugby between 2015-2019.",
     "projects": [
       {
-        "name": "R Cube",
-        "role": "Full-Stack Developer",
-        "from": "2020",
-        "to": ""
+        "id": 5,
+        "name": "Rubik's Cube Robot",
+        "role": "Electrical Engineer & Team Lead",
+        "from": "Sep 2017",
+        "to": "Apr 2018"
       },
       {
-        "name": "Diss",
+        "id": 6,
+        "name": "Performance Evaluation of OFDM & FBMC Systems in the Underwater Acoustic Channel (Master's Thesis) ",
         "role": "Researcher",
-        "from": "2020",
-        "to": ""
+        "from": "Sep 2018 ",
+        "to": "April 2019"
       }
     ]
   },
   {
     "title": "St Albans School ",
-    "from": "Jun 2018",
+    "from": " Jun 2018",
     "to": "present",
     "location": "St Albans, UK",
     "summary": "* A Level - 3A's (Maths, Physics, Electronics)  \n\n* AS Level - 1A (Geography)  \n\n* GCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)",
     "projects": []
   },
+
   {
     "subtitle": "Work Experience & Jobs",
-    "title": "Cricket Direct",
-    "from": "Jun 2018",
-    "to": "present",
-    "location": "London, UK",
-    "summary": "",
+    "title": "Barclaycard (Internship) ",
+    "from": " Jun 2018",
+    "to": "Aug 2018",
+    "location": "Northampton, UK",
+    "summary": "* I completed a 9 week internship as a Technology Intern within Barclaycard's merchant acquiring business. \n\n* Responsibilities included: maintaining the high performance of Barclaycard’s payment authorisations platform, reporting of technological risks to senior management along with driving projects to meet their deliverables.",
+    "projects": []
+  },
+  {
+    "title": "Cricket Direct ",
+    "from": " Jul 2017",
+    "to": "Aug 2017 & Jun 2019 - Sep 2019",
+    "location": "St Albans, UK",
+    "summary": "* Telephone sales, resolved customer’s problems with faulty products and delivery issues.",
+    "projects": []
+  },
+  {
+    "title": "GreenKeeper - Harpenden Common Golf Club ",
+    "from": " Jun 2016",
+    "to": "Sep 2016",
+    "location": "Harpenden, UK",
+    "summary": "* Maintained the golf course to the highest standard throughout the busy summer months. This included cutting greens, fairways and tees and also using industrial standard irrigation equipment.",
     "projects": []
   }
 ]
