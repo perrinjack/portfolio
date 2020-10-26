@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/header.scss';
 import '../styles/project.scss';
-
+import AddBoxIcon from '@material-ui/icons/AddBox';
 type ProjectProps = {
   title: string;
   role: string;
@@ -21,7 +21,9 @@ const Project = ({ title, role, from, to, onClick, id }: ProjectProps) => {
           <div>
             {from} - {to}
           </div>
+          
         </div>
+        <AddBoxIcon className="project-popup-open"/>
       </div>
     </div>
   );
