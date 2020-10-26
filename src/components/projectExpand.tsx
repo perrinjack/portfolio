@@ -2,9 +2,9 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import '../styles/project.scss';
 import '../App.scss';
+import Blocker from './blocker';
 import CloseIcon from '@material-ui/icons/Close';
 type DataProps = {
-  
   project: {
     name: string;
     role: string;
@@ -13,12 +13,12 @@ type DataProps = {
     id: number;
   }[];
   closePopup: () => void;
-  
 };
 
 const ProjectExpand = ({ project, closePopup }: DataProps) => {
   return (
     <>
+      <Blocker />
       <div className="project-popup code-block dark-theme">
         <div className="project-details">
           <div className="project-popup-close" onClick={closePopup}>
