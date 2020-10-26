@@ -11,22 +11,29 @@
         "id": 1,
         "name": "Small Steps",
         "role": "Full-Stack Developer",
-        "from": "2020",
-        "to": ""
+        "from": "Jul 2020",
+        "to": "Jul 2020"
       },
       {
         "id": 2,
         "name": "quiknews",
         "role": "Full-Stack Developer",
-        "from": "2020",
-        "to": ""
+        "from": "Jun 2020",
+        "to": "Jul 2020"
       },
       {
         "id": 3,
-        "name": "quiknews",
+        "name": "MakersBnb",
         "role": "Full-Stack Developer",
         "from": "2020",
         "to": ""
+      }, 
+      {
+        "id": 3,
+        "name": "Banking Tech Test",
+        "role": "Full-Stack Developer",
+        "from": "Jul 2020",
+        "to": "Jul 2020"
       }
     ]
   },
@@ -39,18 +46,18 @@
     "summary": "* MEng Electrical and Electronic Engineering. \n\n* First Class Honours.\n\n * Specialised in Communications Engineering.\n\n* Represented the University of Bristol at Rugby between 2015-2019.",
     "projects": [
       {
-        "id": 4,
-        "name": "R Cube",
-        "role": "Full-Stack Developer",
-        "from": "2020",
-        "to": ""
+        "id": 5,
+        "name": "Rubik's Cube Robot",
+        "role": "Electrical Engineer & Team Lead",
+        "from": "Sep 2017",
+        "to": "Apr 2018"
       },
       {
-        "id": 5,
-        "name": "Performance Evaluation of ",
+        "id": 6,
+        "name": "Performance Evaluation of OFDM & FBMC Systems in the Underwater Acoustic Channel (Master's Thesis) ",
         "role": "Researcher",
-        "from": "Sep 2018 - April 2019",
-        "to": ""
+        "from": "Sep 2018 ",
+        "to": "April 2019"
       }
     ]
   },
@@ -64,8 +71,8 @@
   },
   {
     "subtitle": "Work Experience & Jobs",
-    "title": "Cricket Direct",
-    "from": "Jun 2018",
+    "title": "Cricket Direct ",
+    "from": " Jun 2018",
     "to": "present",
     "location": "St Albans, UK",
     "summary": "",
@@ -74,10 +81,18 @@
 
   {
     "title": "Barclaycard (Internship) ",
-    "from": "Jun 2018",
+    "from": " Jun 2018",
     "to": "Aug 2018",
     "location": "Northampton, UK",
-    "summary": "",
+    "summary": "* I completed a 9 week internship as a Technology Intern within Barclaycard's merchant acquiring business. \n\n* Responsibilities included: maintaining the high performance of Barclaycard’s payment authorisations platform, reporting of technological risks to senior management along with driving projects to meet their deliverables.",
+    "projects": []
+  },
+  {
+    "title": "GreenKeeper - Harpenden Common Golf Club",
+    "from": " Jun 2016",
+    "to": "Sep 2016",
+    "location": "Harpenden, UK",
+    "summary": "* Maintained the golf course to the highest standard throughout the busy summer months. This included cutting greens, fairways and tees and also using industrial standard irrigation equipment.",
     "projects": []
   }
 ]
