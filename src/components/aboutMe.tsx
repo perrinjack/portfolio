@@ -43,7 +43,7 @@ const AboutMe = ({ summary }: AboutMeProps) => {
           <div className="indented-text">
             <li>Quick Learner</li>
             <li>Time Management</li>
-            <li>Problem Solving</li>
+            <li>Problem Solver</li>
             <li>Courage to Experiment</li>
           </div>
           <div className="tag">{'</Core Skills>'}</div>
