@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/header.scss';
 import '../styles/project.scss';
+
 type ProjectProps = {
   title: string;
   role: string;

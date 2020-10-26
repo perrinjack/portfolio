@@ -37,6 +37,8 @@ const Experience = ({
     setExpandedProjects([index]);
   };
 
+  const handleClosePopup = () => setExpandedProjects([-1]);
+
   return (
     <div className="experience">
       <div className="experience-title">{subtitle}</div>
@@ -68,6 +70,7 @@ const Experience = ({
                       id: d.id,
                     },
                   ]}
+                  closePopup={handleClosePopup}
                 />
               )}
             </>
