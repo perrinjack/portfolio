@@ -23,7 +23,7 @@ const Project = ({ title, role, from, to, onClick, id }: ProjectProps) => {
           </div>
           
         </div>
-        <AddBoxIcon className="project-popup-open"/>
+        <AddBoxIcon style = {{color: "#800000"}} className="project-popup-open"/>
       </div>
     </div>
   );

@@ -32,12 +32,12 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
             </div>
           </div>
           <div className="tag">{'<TechStack>'}</div>
-          <div className="tech-stack-list">tech stack list here</div>
+          <div className="tech-stack-list">In development, bear with!</div>
           <div className="tag">{'</TechStack>'}</div>
           <div className="tag">{'<Link>'}</div>
-          <div className="tech-stack-list">Link</div>
+          <div className="tech-stack-list">In development, bear with!</div>
           <div className="tag">{'</Link>'}</div>
-          <div className="description indented-text">description here</div>
+          <div className="description indented-text">In development, bear with!</div>
         </div>
       </div>
     </>
