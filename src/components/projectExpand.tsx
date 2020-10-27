@@ -20,7 +20,7 @@ type DataProps = {
 const ProjectExpand = ({ project, closePopup }: DataProps) => {
   return (
     <>
-      <Blocker />
+      <Blocker closePopup={closePopup} />
       <div className="project-popup code-block dark-theme">
         <div className="project-details">
           <div className="project-popup-close" onClick={closePopup}>
@@ -37,7 +37,15 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
           <div className="tech-stack-list">In development, bear with!</div>
           <div className="tag">{'</TechStack>'}</div>
           <div className="tag">{'<Link>'}</div>
-          Visit here: <a className="link" href={project[0].link}>{project[0].name}</a>
+          Visit here:{' '}
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={project[0].link}
+          >
+            {project[0].name}
+          </a>
           <div className="tag">{'</Link>'}</div>
           <div className="tag">{'<Description>'}</div>
           <div className="description indented-text">
