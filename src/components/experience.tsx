@@ -5,7 +5,6 @@ import Project from './project';
 import ProjectExpand from './projectExpand';
 import '../styles/experience.scss';
 
-
 type EmployerCardProps = {
   data?: string;
   title: string;
@@ -20,6 +19,7 @@ type EmployerCardProps = {
     to: string;
     id: number;
     description: string;
+    link: string;
   }[];
 };
 
@@ -70,6 +70,7 @@ const Experience = ({
                       to: d.to,
                       id: d.id,
                       description: d.description,
+                      link: d.link,
                     },
                   ]}
                   closePopup={handleClosePopup}

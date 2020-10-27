@@ -13,7 +13,8 @@
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
         "to": "Jul 2020",
-        "description": "A carbon footprint calculator"
+        "description": "A carbon footprint calculator",
+        "link": ""
       },
       {
         "id": 2,
@@ -21,7 +22,8 @@
         "role": "Full-Stack Developer",
         "from": "Jun 2020",
         "to": "Jul 2020",
-        "description": ""
+        "description": "",
+        "link": ""
       },
       {
         "id": 3,
@@ -29,7 +31,8 @@
         "role": "Full-Stack Developer",
         "from": "May 2020",
         "to": "Jul 2020",
-        "description": ""
+        "description": "",
+        "link": ""
       },
       {
         "id": 4,
@@ -37,7 +40,8 @@
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
         "to": "Jul 2020",
-        "description": ""
+        "description": "",
+        "link": ""
       }
     ]
   },
@@ -55,7 +59,8 @@
         "role": "Electrical Engineer & Team Lead",
         "from": "Sep 2017",
         "to": "Apr 2018",
-        "description": ""
+        "description": "",
+        "link": ""
       },
       {
         "id": 6,
@@ -63,7 +68,8 @@
         "role": "Researcher",
         "from": "Sep 2018 ",
         "to": "April 2019",
-        "description": ""
+        "description": "",
+        "link": ""
       }
     ]
   },

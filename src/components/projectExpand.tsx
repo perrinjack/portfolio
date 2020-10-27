@@ -12,6 +12,7 @@ type DataProps = {
     to: string;
     id: number;
     description: string;
+    link: string;
   }[];
   closePopup: () => void;
 };
@@ -36,11 +37,13 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
           <div className="tech-stack-list">In development, bear with!</div>
           <div className="tag">{'</TechStack>'}</div>
           <div className="tag">{'<Link>'}</div>
-          <div className="tech-stack-list">In development, bear with!</div>
+          Visit here: <a href={project[0].link}>{project[0].name}</a>
           <div className="tag">{'</Link>'}</div>
+          <div className="tag">{'<Description>'}</div>
           <div className="description indented-text">
             {project[0].description}
           </div>
+          <div className="tag">{'</Description>'}</div>
         </div>
       </div>
     </>
