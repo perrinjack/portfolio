@@ -2,8 +2,8 @@
   {
     "subtitle": "Education",
     "title": "Makers Academy ",
-    "from": " Jun 2018",
-    "to": "present",
+    "from": " Apr 2020",
+    "to": "Aug 2020",
     "location": "London, UK",
     "summary": "A 16-week intensive programming bootcamp, focusing on: \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
     "projects": [
@@ -12,28 +12,40 @@
         "name": "Small Steps",
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
-        "to": "Jul 2020"
+        "to": "Jul 2020",
+        "description": "Incoming",
+        "link": "https://github.com/perrinjack/Small_Steps",
+        "stack": ["React.js", "Node.js", "Javascript","Express",  "Jest", "Enzyme", "Google API's", "HTML", "CSS"]
       },
       {
         "id": 2,
         "name": "quiknews",
         "role": "Full-Stack Developer",
         "from": "Jun 2020",
-        "to": "Jul 2020"
+        "to": "Jul 2020",
+        "description": "This project was completed in a weekend and helped me practice Single page web apps and AJAX requests using vanilla JavaScript, HTML, and CSS. I approached the game logic using Test Driven Development, Object Oriented principles, and a component based design paradigm for the stories. The app consumes the Guardian's API with an asynchronous request to load in the most recent news stories. When a news story is chosen, it's content is summarised by the Aylien text API and presented to the user in 5 sentences with the associated article photo.",
+        "link": "https://quicknews.imfast.io/",
+        "stack": ["Javascript", "Jasmine", "Google Analytics", "CSS", "HTML"]
       },
       {
         "id": 3,
         "name": "MakersBnb",
         "role": "Full-Stack Developer",
         "from": "May 2020",
-        "to": "Jul 2020"
+        "to": "Jul 2020",
+        "description": "Incoming",
+        "link": "https://github.com/perrinjack/MakersBnB",
+        "stack": ["Node.js", "PostgreSQL","Javascript","Express",  "Jest", "Ejs", "WebDriverIO", "HTML", "CSS"]
       },
       {
         "id": 4,
         "name": "Banking Tech Test",
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
-        "to": "Jul 2020"
+        "to": "Jul 2020",
+        "description": "Incoming",
+        "link": "https://github.com/perrinjack/Bank-Tech-Test-Py",
+        "stack": ["Python", "Ruby", "PyTest", "RSpec"]
       }
     ]
   },
@@ -50,23 +62,29 @@
         "name": "Rubik's Cube Robot",
         "role": "Electrical Engineer & Team Lead",
         "from": "Sep 2017",
-        "to": "Apr 2018"
+        "to": "Apr 2018",
+        "description": "A group design project during my 3rd year at the University of Bristol with the task of designing & building a robot capable of solving a Rubrik's cube. Our design incorporated using Pythons Open CV (Computer Vision Library) along with 6 webcam's to detect the initial setup colors of each square on each of the cubes 6 faces. This information was then relayed to a javascript open source algorithm which would return the moves required to solve the cube, after which 6 servo motors would then implement the moves.  ",
+        "link": "https://www.youtube.com/watch?v=ekkY4wNfVEE",
+        "stack": ["Python - Open CV", "Javascript","Electrical Motor Design", "Digital Electronics" ]
       },
       {
         "id": 6,
-        "name": "Performance Evaluation of OFDM & FBMC Systems in the Underwater Acoustic Channel (Master's Thesis) ",
+        "name": "Performance Evaluation of OFDM & FBMC Systems in the Underwater Acoustic Channel  ",
         "role": "Researcher",
         "from": "Sep 2018 ",
-        "to": "April 2019"
+        "to": "April 2019 (Master's Thesis)",
+        "description": "This thesis examines the performance of OFDM-CP and OFDM-OQAM systems in both horizontally and vertically configured underwater acoustic channels. Each system was designed, built and tested over a period of 7 months using Mathworks MATLAB software package. I achieved first class honours for this research and for final presentation to the Dean of Engineering.",
+        "link": "https://drive.google.com/file/d/1gchx9IfKAtoCPV8vZSDL4GZZp8em7hbB/view",
+        "stack": ["MATLAB"]
       }
     ]
   },
   {
     "title": "St Albans School ",
-    "from": " Jun 2018",
-    "to": "present",
+    "from": " Sep 2008",
+    "to": "Jul 2015",
     "location": "St Albans, UK",
-    "summary": "* A Level - 3A's (Maths, Physics, Electronics)  \n\n* AS Level - 1A (Geography)  \n\n* GCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)",
+    "summary": "* A Level - 3A's (Maths, Physics, Electronics)  \n\n* AS Level - 1A (Geography)  \n\n* GCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics) \n\n* 1st XV Rugby | 1st XI Cricket | Combined Cadet Force | Duke of Edinburgh Silver Award | Summited Mt Kilimanjaro (charity)",
     "projects": []
   },
 

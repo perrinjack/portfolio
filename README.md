@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## My Portfolio
+
+Built using React, Node.js, Express, Material UI, GoDaddy, Google Analytics
+
+## How to view
+
+[Visit HERE](https://www.jack-perrin.uk/)
 
 ## Available Scripts
 
@@ -6,26 +12,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
-## Possible Alterations.
+## Possible Alterations
 
-In Mobile-M size (iphone size) developer fa-icon appears out of line. Possibly change icon.
+* Refactoring (In progress)
 
-Redirecting DNS - www.jack-perrin.uk to https://www.jack-perrin.uk
+* In Mobile-M size (iphone size) developer fa-icon appears out of line. Possibly change icon.
 
-[Visit HERE](https://www.jack-perrin.uk/)
-
-<ProjectExpand
-project={[
-{ name: 'Jack', role: 'ffdd', from: 'twats', to: 'mars', id: 7 },
-]}
-/>
-
-
-projects.map((d) => (
-          <Project
-            title={d.name}
-            role={d.role}
-            from={d.from}
-            to={d.to}
-            id={d.id}
-            onClick={handleProjectClick}
+* Redirecting DNS - www.jack-perrin.uk to https://www.jack-perrin.uk
