@@ -36,7 +36,9 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
           </div>
           <div className="tag">{'<TechStack>'}</div>
           <div className="tech-stack-list">
-            <li className="tech-stack-item">{project[0].stack}</li>){' '}
+            {project[0].stack.map((st) => (
+              <li className="tech-stack-item">{st}</li>
+            ))}{' '}
           </div>
           <div className="tag">{'</TechStack>'}</div>
           <div className="tag">{'<Link>'}</div>
