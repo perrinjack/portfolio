@@ -13,9 +13,9 @@
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
         "to": "Jul 2020",
-        "description": "A carbon footprint calculator",
+        "description": "Incoming",
         "link": "https://github.com/perrinjack/Small_Steps",
-        "stack": ["React.js", "Node.js", "Javascript","Express",  "Jest", "Enzyme", "Google APIs", "HTML", "CSS"]
+        "stack": ["React.js", "Node.js", "Javascript","Express",  "Jest", "Enzyme", "Google API's", "HTML", "CSS"]
       },
       {
         "id": 2,
@@ -23,7 +23,7 @@
         "role": "Full-Stack Developer",
         "from": "Jun 2020",
         "to": "Jul 2020",
-        "description": "",
+        "description": "This project was completed in a weekend and helped me practice Single page web apps and AJAX requests using vanilla JavaScript, HTML, and CSS. I approached the game logic using Test Driven Development, Object Oriented principles, and a component based design paradigm for the stories. The app consumes the Guardian's API with an asynchronous request to load in the most recent news stories. When a news story is chosen, it's content is summarised by the Aylien text API and presented to the user in 5 sentences with the associated article photo.",
         "link": "https://quicknews.imfast.io/",
         "stack": ["Javascript", "Jasmine", "Google Analytics", "CSS", "HTML"]
       },
@@ -33,7 +33,7 @@
         "role": "Full-Stack Developer",
         "from": "May 2020",
         "to": "Jul 2020",
-        "description": "",
+        "description": "Incoming",
         "link": "https://github.com/perrinjack/MakersBnB",
         "stack": ["Node.js", "PostgreSQL","Javascript","Express",  "Jest", "Ejs", "WebDriverIO", "HTML", "CSS"]
       },
@@ -43,7 +43,7 @@
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
         "to": "Jul 2020",
-        "description": "",
+        "description": "Incoming",
         "link": "https://github.com/perrinjack/Bank-Tech-Test-Py",
         "stack": ["Python", "Ruby", "PyTest", "RSpec"]
       }
@@ -63,17 +63,17 @@
         "role": "Electrical Engineer & Team Lead",
         "from": "Sep 2017",
         "to": "Apr 2018",
-        "description": "",
+        "description": "A group design project during my 3rd year at the University of Bristol with the task of designing & building a robot capable of solving a Rubrik's cube. Our design incorporated using Pythons Open CV (Computer Vision Library) along with 6 webcam's to detect the initial setup colors of each square on each of the cubes 6 faces. This information was then relayed to a javascript open source algorithm which would return the moves required to solve the cube, after which 6 servo motors would then implement the moves.  ",
         "link": "https://www.youtube.com/watch?v=ekkY4wNfVEE",
         "stack": ["Python - Open CV", "Javascript","Electrical Motor Design", "Digital Electronics" ]
       },
       {
         "id": 6,
-        "name": "Performance Evaluation of OFDM & FBMC Systems in the Underwater Acoustic Channel (Master's Thesis) ",
+        "name": "Performance Evaluation of OFDM & FBMC Systems in the Underwater Acoustic Channel  ",
         "role": "Researcher",
         "from": "Sep 2018 ",
-        "to": "April 2019",
-        "description": "",
+        "to": "April 2019 (Master's Thesis)",
+        "description": "This thesis examines the performance of OFDM-CP and OFDM-OQAM systems in both horizontally and vertically configured underwater acoustic channels. Each system was designed, built and tested over a period of 7 months using Mathworks MATLAB software package. I achieved first class honours for this research and for final presentation to the Dean of Engineering.",
         "link": "https://drive.google.com/file/d/1gchx9IfKAtoCPV8vZSDL4GZZp8em7hbB/view",
         "stack": ["MATLAB"]
       }
