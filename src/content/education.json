@@ -2,8 +2,8 @@
   {
     "subtitle": "Education",
     "title": "Makers Academy ",
-    "from": " Jun 2018",
-    "to": "present",
+    "from": " Apr 2020",
+    "to": "Aug 2020",
     "location": "London, UK",
     "summary": "A 16-week intensive programming bootcamp, focusing on: \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
     "projects": [
@@ -15,7 +15,7 @@
         "to": "Jul 2020",
         "description": "A carbon footprint calculator",
         "link": "https://github.com/perrinjack/Small_Steps",
-        "stack": ["React.js", "Node.js"]
+        "stack": ["React.js", "Node.js", "Javascript","Express",  "Jest", "Enzyme", "Google APIs", "HTML", "CSS"]
       },
       {
         "id": 2,
@@ -25,7 +25,7 @@
         "to": "Jul 2020",
         "description": "",
         "link": "https://quicknews.imfast.io/",
-        "stack": []
+        "stack": ["Javascript", "Jasmine", "Google Analytics", "CSS", "HTML"]
       },
       {
         "id": 3,
@@ -35,7 +35,7 @@
         "to": "Jul 2020",
         "description": "",
         "link": "https://github.com/perrinjack/MakersBnB",
-        "stack": []
+        "stack": ["Node.js", "PostgreSQL","Javascript","Express",  "Jest", "Ejs", "WebDriverIO", "HTML", "CSS"]
       },
       {
         "id": 4,
@@ -45,7 +45,7 @@
         "to": "Jul 2020",
         "description": "",
         "link": "https://github.com/perrinjack/Bank-Tech-Test-Py",
-        "stack": []
+        "stack": ["Python", "Ruby", "PyTest", "RSpec"]
       }
     ]
   },
@@ -65,7 +65,7 @@
         "to": "Apr 2018",
         "description": "",
         "link": "https://www.youtube.com/watch?v=ekkY4wNfVEE",
-        "stack": []
+        "stack": ["Python - Open CV", "Javascript","Electrical Motor Design", "Digital Electronics" ]
       },
       {
         "id": 6,
@@ -75,16 +75,16 @@
         "to": "April 2019",
         "description": "",
         "link": "https://drive.google.com/file/d/1gchx9IfKAtoCPV8vZSDL4GZZp8em7hbB/view",
-        "stack": []
+        "stack": ["MATLAB"]
       }
     ]
   },
   {
     "title": "St Albans School ",
-    "from": " Jun 2018",
-    "to": "present",
+    "from": " Sep 2008",
+    "to": "Jul 2015",
     "location": "St Albans, UK",
-    "summary": "* A Level - 3A's (Maths, Physics, Electronics)  \n\n* AS Level - 1A (Geography)  \n\n* GCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics)",
+    "summary": "* A Level - 3A's (Maths, Physics, Electronics)  \n\n* AS Level - 1A (Geography)  \n\n* GCSE - 7A*'s (Maths, Biology, Chemistry, Physics, Geography, English Literature, English Language) & 3A's (French, Latin, Electronics) \n\n* 1st XV Rugby | 1st XI Cricket | Combined Cadet Force | Duke of Edinburgh Silver Award | Summited Mt Kilimanjaro (charity)",
     "projects": []
   },
 
