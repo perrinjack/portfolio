@@ -37,7 +37,7 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
           <div className="tech-stack-list">In development, bear with!</div>
           <div className="tag">{'</TechStack>'}</div>
           <div className="tag">{'<Link>'}</div>
-          Visit here: <a href={project[0].link}>{project[0].name}</a>
+          Visit here: <a className="link" href={project[0].link}>{project[0].name}</a>
           <div className="tag">{'</Link>'}</div>
           <div className="tag">{'<Description>'}</div>
           <div className="description indented-text">
