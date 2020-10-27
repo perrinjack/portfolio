@@ -4,7 +4,7 @@ import '../App.scss';
 import Project from './project';
 import ProjectExpand from './projectExpand';
 import '../styles/experience.scss';
-import { CSSTransition } from 'react-transition-group';
+
 
 type EmployerCardProps = {
   data?: string;
@@ -19,6 +19,7 @@ type EmployerCardProps = {
     from: string;
     to: string;
     id: number;
+    description: string;
   }[];
 };
 
@@ -68,6 +69,7 @@ const Experience = ({
                       from: d.from,
                       to: d.to,
                       id: d.id,
+                      description: d.description,
                     },
                   ]}
                   closePopup={handleClosePopup}

@@ -12,28 +12,32 @@
         "name": "Small Steps",
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
-        "to": "Jul 2020"
+        "to": "Jul 2020",
+        "description": "A carbon footprint calculator"
       },
       {
         "id": 2,
         "name": "quiknews",
         "role": "Full-Stack Developer",
         "from": "Jun 2020",
-        "to": "Jul 2020"
+        "to": "Jul 2020",
+        "description": ""
       },
       {
         "id": 3,
         "name": "MakersBnb",
         "role": "Full-Stack Developer",
         "from": "May 2020",
-        "to": "Jul 2020"
+        "to": "Jul 2020",
+        "description": ""
       },
       {
         "id": 4,
         "name": "Banking Tech Test",
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
-        "to": "Jul 2020"
+        "to": "Jul 2020",
+        "description": ""
       }
     ]
   },
@@ -50,14 +54,16 @@
         "name": "Rubik's Cube Robot",
         "role": "Electrical Engineer & Team Lead",
         "from": "Sep 2017",
-        "to": "Apr 2018"
+        "to": "Apr 2018",
+        "description": ""
       },
       {
         "id": 6,
         "name": "Performance Evaluation of OFDM & FBMC Systems in the Underwater Acoustic Channel (Master's Thesis) ",
         "role": "Researcher",
         "from": "Sep 2018 ",
-        "to": "April 2019"
+        "to": "April 2019",
+        "description": ""
       }
     ]
   },

@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
+
 import '../styles/project.scss';
 import '../App.scss';
 import Blocker from './blocker';
@@ -11,6 +11,7 @@ type DataProps = {
     from: string;
     to: string;
     id: number;
+    description: string;
   }[];
   closePopup: () => void;
 };
@@ -37,7 +38,9 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
           <div className="tag">{'<Link>'}</div>
           <div className="tech-stack-list">In development, bear with!</div>
           <div className="tag">{'</Link>'}</div>
-          <div className="description indented-text">In development, bear with!</div>
+          <div className="description indented-text">
+            {project[0].description}
+          </div>
         </div>
       </div>
     </>
