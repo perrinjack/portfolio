@@ -20,6 +20,7 @@ type EmployerCardProps = {
     id: number;
     description: string;
     link: string;
+    stack: string[];
   }[];
 };
 
@@ -71,6 +72,7 @@ const Experience = ({
                       id: d.id,
                       description: d.description,
                       link: d.link,
+                      stack: d.stack,
                     },
                   ]}
                   closePopup={handleClosePopup}

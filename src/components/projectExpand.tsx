@@ -13,6 +13,7 @@ type DataProps = {
     id: number;
     description: string;
     link: string;
+    stack: string[];
   }[];
   closePopup: () => void;
 };
@@ -34,7 +35,9 @@ const ProjectExpand = ({ project, closePopup }: DataProps) => {
             </div>
           </div>
           <div className="tag">{'<TechStack>'}</div>
-          <div className="tech-stack-list">In development, bear with!</div>
+          <div className="tech-stack-list">
+            <li className="tech-stack-item">{project[0].stack}</li>){' '}
+          </div>
           <div className="tag">{'</TechStack>'}</div>
           <div className="tag">{'<Link>'}</div>
           Visit here:{' '}
