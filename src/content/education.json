@@ -13,7 +13,7 @@
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
         "to": "Jul 2020",
-        "description": "Incoming",
+        "description": "This was my final group project at Makers Academy. Small Steps is a carbon footprint calculator for journeys by car, train, bus or plane throughout the United Kingdom. The project utilizes a React.js front end (first time I had used it), Node.js backend along with googleMatrix and autocomplete Api's.   ",
         "link": "https://github.com/perrinjack/Small_Steps",
         "stack": ["React.js", "Node.js", "Javascript","Express",  "Jest", "Enzyme", "Google API's", "HTML", "CSS"]
       },
@@ -33,7 +33,7 @@
         "role": "Full-Stack Developer",
         "from": "May 2020",
         "to": "Jul 2020",
-        "description": "Incoming",
+        "description": "A redesigned & better (in my opinion) clone of Air Bnb enabling users to sign up and list/ book spaces",
         "link": "https://github.com/perrinjack/MakersBnB",
         "stack": ["Node.js", "PostgreSQL","Javascript","Express",  "Jest", "Ejs", "WebDriverIO", "HTML", "CSS"]
       },
@@ -43,7 +43,7 @@
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
         "to": "Jul 2020",
-        "description": "Incoming",
+        "description": "A CLI application emulating a bank account, focusing on the production of best practice code, obeying the principles of Object Orientated Design and TDD.",
         "link": "https://github.com/perrinjack/Bank-Tech-Test-Py",
         "stack": ["Python", "Ruby", "PyTest", "RSpec"]
       }
