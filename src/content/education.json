@@ -33,7 +33,7 @@
         "role": "Full-Stack Developer",
         "from": "May 2020",
         "to": "Jul 2020",
-        "description": "A redesigned & better (in my opinion) clone of Air Bnb enabling users to sign up and list/ book spaces",
+        "description": "A redesigned & better (in my opinion) clone of Air Bnb enabling users to sign up and list/ book spaces.",
         "link": "https://github.com/perrinjack/MakersBnB",
         "stack": ["Node.js", "PostgreSQL","Javascript","Express",  "Jest", "Ejs", "WebDriverIO", "HTML", "CSS"]
       },
