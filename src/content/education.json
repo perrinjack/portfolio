@@ -8,6 +8,24 @@
     "summary": "A 16-week intensive programming bootcamp, focusing on: \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
     "projects": [
       {
+        "id": 0,
+        "name": "VirusFigures.com",
+        "role": "Full-Stack Developer",
+        "from": "Oct 2020",
+        "to": "Nov 2020",
+        "description": " A coronavirus dashboard, displaying the latest COVID-19 figures from around the U.K. ",
+        "link": "https://virusfigures.herokuapp.com/",
+        "stack": [
+          "React.js",
+          "Node.js",
+          "Javascript",
+          "Express",
+          "Gov API's",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
         "id": 1,
         "name": "Small Steps",
         "role": "Full-Stack Developer",
@@ -15,7 +33,17 @@
         "to": "Jul 2020",
         "description": "This was my final group project at Makers Academy. Small Steps is a carbon footprint calculator for journeys by car, train, bus or plane throughout the United Kingdom. The project utilizes a React.js front end (first time I had used it), Node.js backend along with googleMatrix and autocomplete Api's.   ",
         "link": "https://github.com/perrinjack/Small_Steps",
-        "stack": ["React.js", "Node.js", "Javascript","Express",  "Jest", "Enzyme", "Google API's", "HTML", "CSS"]
+        "stack": [
+          "React.js",
+          "Node.js",
+          "Javascript",
+          "Express",
+          "Jest",
+          "Enzyme",
+          "Google API's",
+          "HTML",
+          "CSS"
+        ]
       },
       {
         "id": 2,
@@ -35,7 +63,17 @@
         "to": "Jul 2020",
         "description": "A redesigned & better (in my opinion) clone of Air Bnb enabling users to sign up and list/ book spaces.",
         "link": "https://github.com/perrinjack/MakersBnB",
-        "stack": ["Node.js", "PostgreSQL","Javascript","Express",  "Jest", "Ejs", "WebDriverIO", "HTML", "CSS"]
+        "stack": [
+          "Node.js",
+          "PostgreSQL",
+          "Javascript",
+          "Express",
+          "Jest",
+          "Ejs",
+          "WebDriverIO",
+          "HTML",
+          "CSS"
+        ]
       },
       {
         "id": 4,
@@ -65,7 +103,12 @@
         "to": "Apr 2018",
         "description": "A group design project during my 3rd year at the University of Bristol with the task of designing & building a robot capable of solving a Rubrik's cube. Our design incorporated using Pythons Open CV (Computer Vision Library) along with 6 webcam's to detect the initial setup colors of each square on each of the cubes 6 faces. This information was then relayed to a javascript open source algorithm which would return the moves required to solve the cube, after which 6 servo motors would then implement the moves.  ",
         "link": "https://www.youtube.com/watch?v=ekkY4wNfVEE",
-        "stack": ["Python - Open CV", "Javascript","Electrical Motor Design", "Digital Electronics" ]
+        "stack": [
+          "Python - Open CV",
+          "Javascript",
+          "Electrical Motor Design",
+          "Digital Electronics"
+        ]
       },
       {
         "id": 6,
