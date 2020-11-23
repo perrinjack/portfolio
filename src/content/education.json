@@ -8,7 +8,7 @@
     "summary": "A 16-week intensive programming bootcamp, focusing on: \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
     "projects": [
       {
-        "id": -1,
+        "id": 0,
         "name": "TraderPV",
         "role": "Full-Stack Developer",
         "from": "Nov 2020",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "id": 0,
+        "id": 1,
         "name": "VirusFigures.com",
         "role": "Full-Stack Developer",
         "from": "Oct 2020",
@@ -42,7 +42,7 @@
         ]
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "Small Steps",
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "quiknews",
         "role": "Full-Stack Developer",
         "from": "Jun 2020",
@@ -72,7 +72,7 @@
         "stack": ["Javascript", "Jasmine", "Google Analytics", "CSS", "HTML"]
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "MakersBnb",
         "role": "Full-Stack Developer",
         "from": "May 2020",
@@ -92,7 +92,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Banking Tech Test",
         "role": "Full-Stack Developer",
         "from": "Jul 2020",
@@ -112,7 +112,7 @@
     "summary": "* MEng Electrical and Electronic Engineering. \n\n* First Class Honours.\n\n * Specialised in Communications Engineering.\n\n* Represented the University of Bristol at Rugby between 2015-2019.",
     "projects": [
       {
-        "id": 5,
+        "id": 6,
         "name": "Rubik's Cube Robot",
         "role": "Electrical Engineer & Team Lead",
         "from": "Sep 2017",
@@ -127,7 +127,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Performance Evaluation of OFDM & FBMC Systems in the Underwater Acoustic Channel  ",
         "role": "Researcher",
         "from": "Sep 2018 ",
