@@ -8,6 +8,22 @@
     "summary": "A 16-week intensive programming bootcamp, focusing on: \n\n* Agile methodologies.\n\n* Object-oriented design.\n\n* Test driven development and behaviour driven development.\n\n* Pair programming.\n\n* Production of high quality clean code.\n\n* Emotional intelligence.",
     "projects": [
       {
+        "id": -1,
+        "name": "TraderPV",
+        "role": "Full-Stack Developer",
+        "from": "Nov 2020",
+        "to": "Ongoing",
+        "description": "An FX trading app, showcasing users realtime exchange rates & crypto currency prices from around the globe. Detailed graphing of there fluctuation over the last 3 months is also shown.",
+        "link": "https://github.com/perrinjack/TraderPV",
+        "stack": [
+          "React Native",
+          "Node.js",
+          "Javascript",
+          "Alpha Vantage API",
+          "Victory Charts"
+        ]
+      },
+      {
         "id": 0,
         "name": "VirusFigures.com",
         "role": "Full-Stack Developer",
